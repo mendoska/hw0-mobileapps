@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA931D2A2A9C0E5D00A1225F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA931D292A9C0E5D00A1225F /* AppDelegate.swift */; };
+		FA931D2C2A9C0E5D00A1225F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA931D2B2A9C0E5D00A1225F /* SceneDelegate.swift */; };
+		FA931D2E2A9C0E5D00A1225F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA931D2D2A9C0E5D00A1225F /* ViewController.swift */; };
+		FA931D312A9C0E5E00A1225F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA931D2F2A9C0E5E00A1225F /* Main.storyboard */; };
+		FA931D332A9C0E5E00A1225F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA931D322A9C0E5E00A1225F /* Assets.xcassets */; };
+		FA931D362A9C0E5E00A1225F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA931D342A9C0E5E00A1225F /* LaunchScreen.storyboard */; };
+		FA931D412A9C0E5E00A1225F /* hw0_MendozaAlexanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA931D402A9C0E5E00A1225F /* hw0_MendozaAlexanderTests.swift */; };
+		FA931D4B2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA931D4A2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITests.swift */; };
+		FA931D4D2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA931D4C2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA931D3D2A9C0E5E00A1225F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA931D1E2A9C0E5D00A1225F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA931D252A9C0E5D00A1225F;
+			remoteInfo = "hw0-MendozaAlexander";
+		};
+		FA931D472A9C0E5E00A1225F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA931D1E2A9C0E5D00A1225F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA931D252A9C0E5D00A1225F;
+			remoteInfo = "hw0-MendozaAlexander";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA931D262A9C0E5D00A1225F /* hw0-MendozaAlexander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw0-MendozaAlexander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA931D292A9C0E5D00A1225F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA931D2B2A9C0E5D00A1225F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA931D2D2A9C0E5D00A1225F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA931D302A9C0E5E00A1225F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA931D322A9C0E5E00A1225F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA931D352A9C0E5E00A1225F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA931D372A9C0E5E00A1225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA931D3C2A9C0E5E00A1225F /* hw0-MendozaAlexanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw0-MendozaAlexanderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA931D402A9C0E5E00A1225F /* hw0_MendozaAlexanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw0_MendozaAlexanderTests.swift; sourceTree = "<group>"; };
+		FA931D462A9C0E5E00A1225F /* hw0-MendozaAlexanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw0-MendozaAlexanderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA931D4A2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw0_MendozaAlexanderUITests.swift; sourceTree = "<group>"; };
+		FA931D4C2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw0_MendozaAlexanderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA931D232A9C0E5D00A1225F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA931D392A9C0E5E00A1225F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA931D432A9C0E5E00A1225F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA931D1D2A9C0E5D00A1225F = {
+			isa = PBXGroup;
+			children = (
+				FA931D282A9C0E5D00A1225F /* hw0-MendozaAlexander */,
+				FA931D3F2A9C0E5E00A1225F /* hw0-MendozaAlexanderTests */,
+				FA931D492A9C0E5E00A1225F /* hw0-MendozaAlexanderUITests */,
+				FA931D272A9C0E5D00A1225F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA931D272A9C0E5D00A1225F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA931D262A9C0E5D00A1225F /* hw0-MendozaAlexander.app */,
+				FA931D3C2A9C0E5E00A1225F /* hw0-MendozaAlexanderTests.xctest */,
+				FA931D462A9C0E5E00A1225F /* hw0-MendozaAlexanderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA931D282A9C0E5D00A1225F /* hw0-MendozaAlexander */ = {
+			isa = PBXGroup;
+			children = (
+				FA931D292A9C0E5D00A1225F /* AppDelegate.swift */,
+				FA931D2B2A9C0E5D00A1225F /* SceneDelegate.swift */,
+				FA931D2D2A9C0E5D00A1225F /* ViewController.swift */,
+				FA931D2F2A9C0E5E00A1225F /* Main.storyboard */,
+				FA931D322A9C0E5E00A1225F /* Assets.xcassets */,
+				FA931D342A9C0E5E00A1225F /* LaunchScreen.storyboard */,
+				FA931D372A9C0E5E00A1225F /* Info.plist */,
+			);
+			path = "hw0-MendozaAlexander";
+			sourceTree = "<group>";
+		};
+		FA931D3F2A9C0E5E00A1225F /* hw0-MendozaAlexanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA931D402A9C0E5E00A1225F /* hw0_MendozaAlexanderTests.swift */,
+			);
+			path = "hw0-MendozaAlexanderTests";
+			sourceTree = "<group>";
+		};
+		FA931D492A9C0E5E00A1225F /* hw0-MendozaAlexanderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA931D4A2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITests.swift */,
+				FA931D4C2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITestsLaunchTests.swift */,
+			);
+			path = "hw0-MendozaAlexanderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA931D252A9C0E5D00A1225F /* hw0-MendozaAlexander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA931D502A9C0E5E00A1225F /* Build configuration list for PBXNativeTarget "hw0-MendozaAlexander" */;
+			buildPhases = (
+				FA931D222A9C0E5D00A1225F /* Sources */,
+				FA931D232A9C0E5D00A1225F /* Frameworks */,
+				FA931D242A9C0E5D00A1225F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw0-MendozaAlexander";
+			productName = "hw0-MendozaAlexander";
+			productReference = FA931D262A9C0E5D00A1225F /* hw0-MendozaAlexander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA931D3B2A9C0E5E00A1225F /* hw0-MendozaAlexanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA931D532A9C0E5E00A1225F /* Build configuration list for PBXNativeTarget "hw0-MendozaAlexanderTests" */;
+			buildPhases = (
+				FA931D382A9C0E5E00A1225F /* Sources */,
+				FA931D392A9C0E5E00A1225F /* Frameworks */,
+				FA931D3A2A9C0E5E00A1225F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA931D3E2A9C0E5E00A1225F /* PBXTargetDependency */,
+			);
+			name = "hw0-MendozaAlexanderTests";
+			productName = "hw0-MendozaAlexanderTests";
+			productReference = FA931D3C2A9C0E5E00A1225F /* hw0-MendozaAlexanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA931D452A9C0E5E00A1225F /* hw0-MendozaAlexanderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA931D562A9C0E5E00A1225F /* Build configuration list for PBXNativeTarget "hw0-MendozaAlexanderUITests" */;
+			buildPhases = (
+				FA931D422A9C0E5E00A1225F /* Sources */,
+				FA931D432A9C0E5E00A1225F /* Frameworks */,
+				FA931D442A9C0E5E00A1225F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA931D482A9C0E5E00A1225F /* PBXTargetDependency */,
+			);
+			name = "hw0-MendozaAlexanderUITests";
+			productName = "hw0-MendozaAlexanderUITests";
+			productReference = FA931D462A9C0E5E00A1225F /* hw0-MendozaAlexanderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA931D1E2A9C0E5D00A1225F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FA931D252A9C0E5D00A1225F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FA931D3B2A9C0E5E00A1225F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FA931D252A9C0E5D00A1225F;
+					};
+					FA931D452A9C0E5E00A1225F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FA931D252A9C0E5D00A1225F;
+					};
+				};
+			};
+			buildConfigurationList = FA931D212A9C0E5D00A1225F /* Build configuration list for PBXProject "hw0-MendozaAlexander" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA931D1D2A9C0E5D00A1225F;
+			productRefGroup = FA931D272A9C0E5D00A1225F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA931D252A9C0E5D00A1225F /* hw0-MendozaAlexander */,
+				FA931D3B2A9C0E5E00A1225F /* hw0-MendozaAlexanderTests */,
+				FA931D452A9C0E5E00A1225F /* hw0-MendozaAlexanderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA931D242A9C0E5D00A1225F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA931D362A9C0E5E00A1225F /* LaunchScreen.storyboard in Resources */,
+				FA931D332A9C0E5E00A1225F /* Assets.xcassets in Resources */,
+				FA931D312A9C0E5E00A1225F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA931D3A2A9C0E5E00A1225F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA931D442A9C0E5E00A1225F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA931D222A9C0E5D00A1225F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA931D2E2A9C0E5D00A1225F /* ViewController.swift in Sources */,
+				FA931D2A2A9C0E5D00A1225F /* AppDelegate.swift in Sources */,
+				FA931D2C2A9C0E5D00A1225F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA931D382A9C0E5E00A1225F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA931D412A9C0E5E00A1225F /* hw0_MendozaAlexanderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA931D422A9C0E5E00A1225F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA931D4D2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITestsLaunchTests.swift in Sources */,
+				FA931D4B2A9C0E5E00A1225F /* hw0_MendozaAlexanderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA931D3E2A9C0E5E00A1225F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA931D252A9C0E5D00A1225F /* hw0-MendozaAlexander */;
+			targetProxy = FA931D3D2A9C0E5E00A1225F /* PBXContainerItemProxy */;
+		};
+		FA931D482A9C0E5E00A1225F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA931D252A9C0E5D00A1225F /* hw0-MendozaAlexander */;
+			targetProxy = FA931D472A9C0E5E00A1225F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA931D2F2A9C0E5E00A1225F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA931D302A9C0E5E00A1225F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA931D342A9C0E5E00A1225F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA931D352A9C0E5E00A1225F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA931D4E2A9C0E5E00A1225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA931D4F2A9C0E5E00A1225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA931D512A9C0E5E00A1225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hw0-MendozaAlexander/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alex.hw0-MendozaAlexander";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA931D522A9C0E5E00A1225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hw0-MendozaAlexander/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alex.hw0-MendozaAlexander";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA931D542A9C0E5E00A1225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alex.hw0-MendozaAlexanderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw0-MendozaAlexander.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hw0-MendozaAlexander";
+			};
+			name = Debug;
+		};
+		FA931D552A9C0E5E00A1225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alex.hw0-MendozaAlexanderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw0-MendozaAlexander.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hw0-MendozaAlexander";
+			};
+			name = Release;
+		};
+		FA931D572A9C0E5E00A1225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alex.hw0-MendozaAlexanderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hw0-MendozaAlexander";
+			};
+			name = Debug;
+		};
+		FA931D582A9C0E5E00A1225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alex.hw0-MendozaAlexanderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hw0-MendozaAlexander";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA931D212A9C0E5D00A1225F /* Build configuration list for PBXProject "hw0-MendozaAlexander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA931D4E2A9C0E5E00A1225F /* Debug */,
+				FA931D4F2A9C0E5E00A1225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA931D502A9C0E5E00A1225F /* Build configuration list for PBXNativeTarget "hw0-MendozaAlexander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA931D512A9C0E5E00A1225F /* Debug */,
+				FA931D522A9C0E5E00A1225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA931D532A9C0E5E00A1225F /* Build configuration list for PBXNativeTarget "hw0-MendozaAlexanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA931D542A9C0E5E00A1225F /* Debug */,
+				FA931D552A9C0E5E00A1225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA931D562A9C0E5E00A1225F /* Build configuration list for PBXNativeTarget "hw0-MendozaAlexanderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA931D572A9C0E5E00A1225F /* Debug */,
+				FA931D582A9C0E5E00A1225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA931D1E2A9C0E5D00A1225F /* Project object */;
+}
